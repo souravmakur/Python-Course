@@ -14,10 +14,20 @@ print(marks["Harry"]) # prints 100
 print(marks , type(marks)) # prints the dictionary and its type
 
 # Here are some methods that can be used with dictionaries.
+
 print(marks.keys()) # returns a list of all the keys in the dictionary
+
 print(marks.values()) # returns a list of all the values in the dictionary
+
 print(marks.items()) # returns a list of all the key-value pairs in the dictionary
+
 print(marks.get("Harry")) # returns the value of the key "Harry"
+
 marks.update({"Harry" : 95}) # updates the value of the key "Harry" to 95
+
 print(marks) # prints the updated dictionary
+
+print(marks.clear()) # clears the dictionary
+
+print(marks.pop("Rohan")) # removes the key "Rohan" and its value from the dictionary
 
