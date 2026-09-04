@@ -27,3 +27,4 @@ print(l1)
 
 l1.pop(3) #removes third index
 print(l1)
+print(l1)
