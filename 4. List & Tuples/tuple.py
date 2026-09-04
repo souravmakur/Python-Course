@@ -12,3 +12,7 @@ tuple1 = (1, 2, 3)
 tuple2 = (4, 5, 6)
 concatenated = tuple1 + tuple2 #Concatenate 2 tuples
 print(concatenated)
+
+my_tuple = (1, 2, 3)
+repeated = my_tuple * 3 #Repeat the tuple 3 times 
+print(repeated) #Concatenate the same tuple thrice
