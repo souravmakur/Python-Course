@@ -32,4 +32,4 @@ print(sum)
 #5. Write a program to find number of zeros in a tuple
 tuple1 = (1, 0, 2, 0, 3, 0, 4)
 count_zeros = tuple1.count(0)
-print("Number of zeros in the tuple:", count_zeros)
+print(count_zeros)
