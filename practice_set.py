@@ -14,4 +14,17 @@ for i in range(6):
     number += 1
     
 print(marks)
-  
+
+
+# 3. Check that tuple type cannot be changed in python.
+t = (1, 2, 3)
+# t[0] = 5  # This will raise an error
+print(t)
+
+#4 Write a program to sum all the items in a list.
+list1 = [1, 2, 3]
+sum = 0
+for i in range(len(list1)):
+    sum = sum + list1[i]
+    
+print(sum)
