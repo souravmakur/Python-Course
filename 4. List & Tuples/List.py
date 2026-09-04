@@ -24,3 +24,6 @@ print(l1)
 
 l1.reverse() #reverses the list
 print(l1)
+
+l1.pop(3) #removes third index
+print(l1)
