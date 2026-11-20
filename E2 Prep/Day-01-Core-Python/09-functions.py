@@ -57,21 +57,48 @@ display_details(
 
 # Inside the function, kwargs is a dictionary.
 
-# Lambda Functions
+#F. Lambda Functions
 # Lambda functions are small anonymous functions.
 
 # Normal function:
 def square(n):
     return n * n
 
-# Lambda Function
+#G. Lambda Function
 square = lambda n: n * n
 print(square(5))
 
 add = lambda a, b: a + b
 print(add(10, 20))
 
-# Map
+# H. Map
+# Applies a function to every element in an iterable.
+
 numbers = [1, 2, 3, 4, 5]
 squares = list(map(lambda n: n ** 2, numbers))
-print(squares)
+print(squares) #[1, 4, 9, 16, 25]
+
+# I. Filter
+# Filters elements based on a condition.
+
+numbers = [1, 2, 3, 4, 5, 6]
+even = list(filter(lambda n: n % 2 == 0, numbers))
+print(even) #[2, 4, 6]
+
+# J. Reduce
+# Unlike map() and filter(), reduce() combines elements into a single result.
+# It is available through functools.
+
+from functools import reduce
+numbers = [1, 2, 3, 4, 5]
+result = reduce(lambda a, b: a + b, numbers)
+print(result)  # 15
+
+
+# # Quick comparison
+# Concept	     # Purpose
+
+# map()	         Transform every element
+# filter()	     Select matching elements
+# reduce()	     Combine elements into one result
+# lambda	     Create a small anonymous function
