@@ -67,3 +67,4 @@ else:
     print("Loop completed")
     
 # The else executes when the loop finishes normally, without being terminated by break.
+
