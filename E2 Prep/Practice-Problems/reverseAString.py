@@ -14,5 +14,5 @@ def reverse_a_string(s):
 
 s = "Sourav"
 
-print(reverse_slicing(s))
-print(reverse_a_string(s))
+print(reverse_slicing(s)) #vruoS
+print(reverse_a_string(s)) #vruoS
