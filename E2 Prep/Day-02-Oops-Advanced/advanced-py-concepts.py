@@ -48,3 +48,19 @@ def greet():
     print("Hello")
     
 greet()
+
+# E. File Handling
+with open("data.txt", "w") as file:
+    file.write("Python E2 Preparation")
+    
+with open("data.txt", "r") as file:
+    print(file.read())
+    
+
+# MODE               MEANING
+# r                  Read               
+# w                  Write, overwrites existing content   
+# a                  Append   
+# x                  Create new file   
+
+# with automatically manages file closure.
